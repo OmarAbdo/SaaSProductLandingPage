@@ -23,8 +23,9 @@ export default function Example() {
     <div className="relative isolate bg-gray-900">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
+          <div className="absolute inset-x-0 top-0 z-10 h-24 bg-gradient-to-b from-gray-900 sm:h-32" />
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-            <div className="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden ring-1 ring-white/5 lg:w-1/2">
+            <div className="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden ring-1 ring-gray-900 lg:w-1/2">
               <svg
                 className="absolute inset-0 h-full w-full stroke-gray-700 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
                 aria-hidden="true"
@@ -60,7 +61,7 @@ export default function Example() {
                 aria-hidden="true"
               >
                 <div
-                  className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-br from-[#80caff] to-[#4f46e5] opacity-20"
+                  className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-br from-[#80caff] to-[#66CDAA] opacity-20"
                   style={{
                     clipPath:
                       "polygon(74.1% 56.1%, 100% 38.6%, 97.5% 73.3%, 85.5% 100%, 80.7% 98.2%, 72.5% 67.7%, 60.2% 37.8%, 52.4% 32.2%, 47.5% 41.9%, 45.2% 65.8%, 27.5% 23.5%, 0.1% 35.4%, 17.9% 0.1%, 27.6% 23.5%, 76.1% 2.6%, 74.1% 56.1%)",
@@ -86,7 +87,7 @@ export default function Example() {
                   />
                 </dt>
                 <dd>
-                  545 Mavis Island
+                  502 Remote Island
                   <br />
                   Chicago, IL 99191
                 </dd>
@@ -101,7 +102,7 @@ export default function Example() {
                 </dt>
                 <dd>
                   <a className="hover:text-white" href="tel:+1 (555) 234-5678">
-                    +1 (555) 234-5678
+                    +1 (234) 567-8900
                   </a>
                 </dd>
               </div>
@@ -118,12 +119,13 @@ export default function Example() {
                     className="hover:text-white"
                     href="mailto:hello@example.com"
                   >
-                    hello@example.com
+                    hello@oneapp.com
                   </a>
                 </dd>
               </div>
             </dl>
           </div>
+          <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-gray-900 sm:h-32" />
         </div>
         <form
           action="#"
@@ -145,7 +147,7 @@ export default function Example() {
                     name="first-name"
                     id="first-name"
                     autoComplete="given-name"
-                    className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-aquamarine sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -162,7 +164,7 @@ export default function Example() {
                     name="last-name"
                     id="last-name"
                     autoComplete="family-name"
-                    className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-aquamarine sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -179,7 +181,7 @@ export default function Example() {
                     name="email"
                     id="email"
                     autoComplete="email"
-                    className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-aquamarine sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -196,7 +198,7 @@ export default function Example() {
                     name="phone-number"
                     id="phone-number"
                     autoComplete="tel"
-                    className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-aquamarine sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -212,7 +214,7 @@ export default function Example() {
                     name="message"
                     id="message"
                     rows={4}
-                    className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-aquamarine sm:text-sm sm:leading-6"
                     defaultValue={""}
                   />
                 </div>
@@ -221,7 +223,7 @@ export default function Example() {
             <div className="mt-8 flex justify-end">
               <button
                 type="submit"
-                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className="rounded-md bg-aquamarine px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-mediumaquamarine focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-aquamarine"
               >
                 Send message
               </button>

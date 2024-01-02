@@ -33,7 +33,7 @@ export default function Example() {
     <div className="bg-gray-900 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-400">
+          <h2 className="text-base font-semibold leading-7 text-aquamarine">
             Deploy faster
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -51,7 +51,7 @@ export default function Example() {
               <div key={feature.name} className="flex flex-col">
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">
                   <feature.icon
-                    className="h-5 w-5 flex-none text-indigo-400"
+                    className="h-5 w-5 flex-none text-mediumaquamarine"
                     aria-hidden="true"
                   />
                   {feature.name}
@@ -61,7 +61,7 @@ export default function Example() {
                   <p className="mt-6">
                     <a
                       href={feature.href}
-                      className="text-sm font-semibold leading-6 text-indigo-400"
+                      className="text-sm font-semibold leading-6 text-mediumaquamarine"
                     >
                       Learn more <span aria-hidden="true">→</span>
                     </a>

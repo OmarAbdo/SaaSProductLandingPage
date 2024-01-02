@@ -14,7 +14,7 @@ const tiers = [
     price: { monthly: "$15", annually: "$144" },
     description: "The essentials to provide your best work for clients.",
     features: [
-      "5 products",
+      "5 licenses",
       "Up to 1,000 subscribers",
       "Basic analytics",
       "48-hour support response time",
@@ -28,7 +28,7 @@ const tiers = [
     price: { monthly: "$30", annually: "$288" },
     description: "A plan that scales with your rapidly growing business.",
     features: [
-      "25 products",
+      "25 licenses",
       "Up to 10,000 subscribers",
       "Advanced analytics",
       "24-hour support response time",
@@ -41,9 +41,9 @@ const tiers = [
     id: "tier-enterprise",
     href: "#",
     price: { monthly: "$48", annually: "$576" },
-    description: "Dedicated support and infrastructure for your company.",
+    description: "Dedicated support and infrastructure for One App.",
     features: [
-      "Unlimited products",
+      "Unlimited licenses",
       "Unlimited subscribers",
       "Advanced analytics",
       "1-hour, dedicated support response time",
@@ -65,7 +65,7 @@ export default function Example() {
     <div className="bg-gray-900 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-400">
+          <h2 className="text-base font-semibold leading-7 text-mediumaquamarine">
             Pricing
           </h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
@@ -91,7 +91,7 @@ export default function Example() {
                 value={option}
                 className={({ checked }) =>
                   classNames(
-                    checked ? "bg-indigo-500" : "",
+                    checked ? "bg-aquamarine" : "",
                     "cursor-pointer rounded-full px-2.5 py-1"
                   )
                 }
@@ -107,7 +107,7 @@ export default function Example() {
               key={tier.id}
               className={classNames(
                 tier.mostPopular
-                  ? "bg-white/5 ring-2 ring-indigo-500"
+                  ? "bg-white/5 ring-2 ring-aquamarine"
                   : "ring-1 ring-white/10",
                 "rounded-3xl p-8 xl:p-10"
               )}
@@ -120,7 +120,7 @@ export default function Example() {
                   {tier.name}
                 </h3>
                 {tier.mostPopular ? (
-                  <p className="rounded-full bg-indigo-500 px-2.5 py-1 text-xs font-semibold leading-5 text-white">
+                  <p className="rounded-full bg-aquamarine px-2.5 py-1 text-xs font-semibold leading-5 text-white">
                     Most popular
                   </p>
                 ) : null}
@@ -130,7 +130,7 @@ export default function Example() {
               </p>
               <p className="mt-6 flex items-baseline gap-x-1">
                 <span className="text-4xl font-bold tracking-tight text-white">
-                {tier.price[frequency.value as keyof typeof tier.price]}
+                  {tier.price[frequency.value as keyof typeof tier.price]}
                 </span>
                 <span className="text-sm font-semibold leading-6 text-gray-300">
                   {frequency.priceSuffix}
@@ -141,7 +141,7 @@ export default function Example() {
                 aria-describedby={tier.id}
                 className={classNames(
                   tier.mostPopular
-                    ? "bg-indigo-500 text-white shadow-sm hover:bg-indigo-400 focus-visible:outline-indigo-500"
+                    ? "bg-aquamarine text-white shadow-sm hover:bg-mediumaquamarine focus-visible:outline-aquamarine"
                     : "bg-white/10 text-white hover:bg-white/20 focus-visible:outline-white",
                   "mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
                 )}

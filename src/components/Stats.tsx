@@ -10,7 +10,7 @@ export default function Example() {
     <div className="bg-gray-900 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-          <p className="text-base font-semibold leading-7 text-indigo-400">
+          <p className="text-base font-semibold leading-7 text-mediumaquamarine">
             Deploy faster
           </p>
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">

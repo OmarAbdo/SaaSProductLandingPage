@@ -21,12 +21,8 @@ export default function Example() {
         >
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                alt=""
-              />
+              <span className="sr-only">One App</span>
+              <img className="h-8 w-auto" src="./oneAppLogo.svg" alt="" />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -66,12 +62,8 @@ export default function Example() {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
-                <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                  alt=""
-                />
+                <span className="sr-only">One App</span>
+                <img className="h-8 w-auto" src="./oneAppLogo.svg" alt="" />
               </a>
               <button
                 type="button"
@@ -139,7 +131,7 @@ export default function Example() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              Data to enrich your online business
+              A platform to enrich your online business
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
@@ -149,7 +141,7 @@ export default function Example() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                className="rounded-md bg-aquamarine px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-mediumaquamarine focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mediumaquamarine"
               >
                 Get started
               </a>

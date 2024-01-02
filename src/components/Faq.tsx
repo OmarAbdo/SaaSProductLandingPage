@@ -3,11 +3,15 @@ import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
 const faqs = [
   {
-    question: "What's the best thing about Switzerland?",
+    question: "What are the technologies used in this sample?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "This sample uses React, TypeScript, Tailwind CSS, and Vite. It also uses Heroicons for the icons.",
   },
-  // More questions...
+  {
+    question: "More useful information?",
+    answer:
+      "This sample is a part of my UI portfolio. It's also an open source sample. Meaning that all the code is available on my GitHub.",
+  }
 ];
 
 export default function Example() {

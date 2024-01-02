@@ -97,14 +97,9 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <img
-              className="h-7"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-              alt="Company name"
-            />
+            <img className="h-7" src="./oneAppLogo.svg" alt="Company name" />
             <p className="text-sm leading-6 text-gray-300">
-              Making the world a better place through constructing elegant
-              hierarchies.
+              Making the world a better place through SaaS development
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
@@ -196,7 +191,7 @@ export default function Example() {
         </div>
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
           <p className="text-xs leading-5 text-gray-400">
-            &copy; 2020 Your Company, Inc. All rights reserved.
+            &copy; {new Date().getFullYear()} One App, Inc. All rights reserved.
           </p>
         </div>
       </div>

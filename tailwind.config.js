@@ -8,7 +8,12 @@ export default {
     "./src/**/*.tsx",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        aquamarine: "aquamarine",
+        mediumaquamarine: "mediumaquamarine",
+      },
+    },
   },
   plugins: [],
 };
